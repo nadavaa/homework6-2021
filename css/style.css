@@ -62,7 +62,10 @@ a:visited{
 
 .gallery{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #logo{
